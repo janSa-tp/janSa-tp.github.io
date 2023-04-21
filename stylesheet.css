@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.pagetopbar {
+	background-color:#a7e9b3;
+	padding:15px;
+	position: sticky;
+	top: 8px;
+	border-radius: 15px;
+}
+
+.topbarimg {
+	height:100px;
+	padding-bottom:15px;
+}
+
+.linkflex {
+	display:flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+.linkflex > a {
+	font-family:Roboto Mono;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:24px;
+}
+
+.maindiv {
+	width: max(400px, 50%);
+	margin: auto;
+}
+
+a {
+	color:#129843;
+	transition: 0.5s ease;
+	text-decoration-line: underline;
+}
+
+a:hover {
+	color:#4cc168;
+}
+
+html {
+	background-color:#e3ffe8;
+}
+
+h1 {
+	font-family:Audiowide;
+}
+
+h2 {
+	font-family: Montserrat;
+	color: #222222;
+	font-size:30px;
+}
+
+details {
+	background-color:#bbfec7;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+summary {
+	font-family: Nunito;
+	font-size:22px;
+}
+
+p {
+	font-family: Nunito;
+	font-size:22px;
+}

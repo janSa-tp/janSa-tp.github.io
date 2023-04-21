@@ -47,6 +47,13 @@ a:hover {
 	color:#4cc168;
 }
 
+a[target="_blank"], a[href^="http"] {
+	background-image: url("images/external-link.svg");
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 1em;
+}
+
 html {
 	background-color:#e3ffe8;
 }

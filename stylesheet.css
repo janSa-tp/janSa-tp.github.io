@@ -9,13 +9,13 @@
 .pagetopbar {
 	background-color:#a7e9b3;
 	padding:15px;
+	border-radius: 15px;
 	position: sticky;
 	top: 8px;
-	border-radius: 15px;
 }
 
 .topbarimg {
-	max-height:100px;
+	height: min(100px,10vh);
 	padding-bottom:15px;
 }
 
@@ -64,7 +64,7 @@ h1 {
 
 h2 {
 	font-family: Montserrat;
-	color: #222222;
+	color: #006600;
 	font-size:30px;
 	padding-left:20px;
 	padding-right:20px;

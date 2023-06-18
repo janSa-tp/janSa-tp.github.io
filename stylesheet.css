@@ -9,20 +9,24 @@
 .pagetopbar {
 	background-color:#a7e9b3;
 	padding:15px;
-	border-radius: 15px;
-	position: sticky;
-	top: 8px;
+	padding-bottom:20px;
+	margin-bottom:-20px;
+	border-radius:15px;
 }
 
 .topbarimg {
 	height: min(100px,10vh);
-	padding-bottom:15px;
 }
 
 .linkflex {
 	display:flex;
 	justify-content:center;
 	flex-wrap: wrap;
+	position: sticky;
+	top: 8px;
+	background-color:#a7e9b3;
+	padding:15px;
+	border-radius: 15px;
 }
 
 .linkflex > a {
@@ -55,6 +59,13 @@ a[target="_blank"], a[href^="http"] {
 }
 
 html {
+	background-color:#e3ffe8;
+}
+
+hr {
+	height:2px;
+	border-width:0;
+	color:#e3ffe8;
 	background-color:#e3ffe8;
 }
 
